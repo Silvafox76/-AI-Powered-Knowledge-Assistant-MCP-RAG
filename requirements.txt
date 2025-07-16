@@ -1,0 +1,44 @@
+# Core FastAPI and web framework
+fastapi==0.116.0
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+python-dotenv==1.0.1
+
+# Database and vector store
+chromadb==1.0.15
+sqlite3
+
+# LLM and AI frameworks
+langchain==0.3.26
+langchain-community==0.3.27
+sentence-transformers==5.0.0
+
+# Document processing
+PyPDF2==3.0.1
+python-pptx==1.0.2
+python-docx==1.1.2
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# Data processing
+pandas==2.2.3
+numpy==2.1.3
+
+# Testing
+pytest==8.4.1
+pytest-asyncio==1.0.0
+httpx==0.28.1
+
+# Logging and monitoring
+structlog==24.4.0
+
+# Development tools
+black==24.10.0
+flake8==7.1.1
+mypy==1.13.0
+
